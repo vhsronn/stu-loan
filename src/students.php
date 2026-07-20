@@ -31,7 +31,7 @@ if (!$students) {
         echo "<td>" . e((string)$s['email']) . "</td>";
         echo "<td>" . e((string)$s['address']) . "</td>";
         echo "<td class='actions'>";
-        echo "<a href='index.php?page=loans&student_id=" . e((string)$sid) . "'><button type='button'>Loans</button></a> ";
+echo "<a href='index.php?page=loans&student_id=" . e((string)$sid) . "'><button type='button'>View</button></a> ";
         echo "</td>";
         echo "</tr>";
     }

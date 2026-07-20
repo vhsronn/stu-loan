@@ -98,7 +98,7 @@ if (!$loans) {
         echo "<td>" . e((string)$l['loan_type']) . "</td>";
         echo "<td>" . e((string)$l['status']) . "</td>";
         echo "<td class='actions'>";
-        echo "<a href='index.php?page=payments&loan_id=" . e((string)$lid) . "'><button type='button'>Payments</button></a>";
+echo "<a href='index.php?page=payments&loan_id=" . e((string)$lid) . "'><button type='button'>View</button></a>";
         echo "</td>";
         echo "</tr>";
     }
